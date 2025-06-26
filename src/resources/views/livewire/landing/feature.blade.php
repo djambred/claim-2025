@@ -10,6 +10,7 @@
                     {{-- Icon bisa HTML SVG atau <x-icon> custom --}}
                     {{-- {!! $feature->icon !!} --}}
                     <x-dynamic-component :component="$feature->icon" class="w-10 h-10 text-primary" />
+
                 </div>
                 <h3 class="text-xl font-semibold">{{ $feature->title }}</h3>
                 <p class="mt-2 text-sm text-base-content/70">{{ $feature->description }}</p>

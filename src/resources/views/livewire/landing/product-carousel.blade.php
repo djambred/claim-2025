@@ -8,8 +8,8 @@
             @foreach ($products as $product)
                 <div class="card w-72 flex-shrink-0 bg-base-100 shadow-md snap-center" data-aos="zoom-in">
                     <figure>
-                        <img src="{{ $product->image ? Storage::url($product->image) : 'https://via.placeholder.com/300x200' }}"
-                            alt="{{ $product->title }}" class="object-cover w-full h-40" />
+                        <img src="{{ $product->image_url }}" alt="{{ $product->title }}"
+                            class="object-cover w-full h-40" />
                     </figure>
                     <div class="card-body text-center">
                         <h2 class="card-title justify-center">{{ $product->title }}</h2>

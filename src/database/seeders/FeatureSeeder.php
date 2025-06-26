@@ -14,7 +14,7 @@ class FeatureSeeder extends Seeder
     public function run(): void
     {
         Feature::create([
-            'icon' => '<svg ...>...</svg>', // isi SVG langsung
+            'icon' => 'heroicon-o-cog',
             'title' => 'Fleksibel & Terukur',
             'description' => 'Solusi yang dapat disesuaikan dengan skala dan kebutuhan unik bisnis Anda.',
         ]);

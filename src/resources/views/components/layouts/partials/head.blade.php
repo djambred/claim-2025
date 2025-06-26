@@ -1,3 +1,15 @@
+@php
+    use Illuminate\Support\Facades\Storage;
+
+    $ogImagePath = $seo->og_image ?? null;
+
+    // Gunakan disk 'public' (default-nya Laravel pakai 'public' untuk storage:link)
+    $backgroundImageUrl =
+        filled($ogImagePath) && Storage::disk('public')->exists($ogImagePath)
+            ? Storage::url($ogImagePath)
+            : asset('images/hero.jpg');
+@endphp
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -40,7 +52,7 @@
         }
 
         .hero {
-            background-image: url('{{ Storage::url($seo->og_image ?? 'images/hero.jpg') }}');
+            background-image: url('{{ $backgroundImageUrl }}');
             background-size: cover;
             background-position: center;
         }

@@ -13,7 +13,7 @@
                             <div class="avatar">
                                 <div class="w-12 rounded-full">
                                     <img
-                                        src="{{ $testimonial->author_photo ? Storage::url($testimonial->author_photo) : 'https://via.placeholder.com/100' }}" />
+                                        src="{{ !empty($testimonial->author_photo) ? Storage::url($testimonial->author_photo) : asset('images/man.png') }}" />
                                 </div>
                             </div>
                             <div class="ml-4">

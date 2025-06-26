@@ -26,6 +26,8 @@ class ClientPanelProvider extends PanelProvider
             ->id('client')
             ->path('client')
             ->brandName('DASHBOARD CLIENT')
+            ->registration()
+            ->login()
             ->colors([
                 'primary' => Color::Amber,
             ])

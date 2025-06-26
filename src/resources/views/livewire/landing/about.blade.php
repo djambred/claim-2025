@@ -3,7 +3,7 @@
         @if ($about)
             @if ($about->logo)
                 <div class="flex justify-center mb-6">
-                    <img src="{{ Storage::url($about->logo) }}" alt="Logo" class="h-20">
+                    <img src="{{ $about->logo_url }}" alt="Logo" class="h-20">
                 </div>
             @endif
 

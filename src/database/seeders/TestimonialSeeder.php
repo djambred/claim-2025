@@ -18,19 +18,19 @@ class TestimonialSeeder extends Seeder
                 'content' => 'Sejak menggunakan Helios Analytics, pengambilan keputusan kami menjadi 90% lebih cepat dan akurat. Sangat direkomendasikan!',
                 'author_name' => 'Budi Santoso',
                 'author_position' => 'CEO, Maju Jaya Group',
-                'author_photo' => 'https://source.unsplash.com/100x100/?man,face,professional',
+                'author_photo' => '',
             ],
             [
                 'content' => 'Implementasi Titan CRM sangat mulus. Tim support ClaimTech sangat responsif dan membantu kami di setiap langkah.',
                 'author_name' => 'Citra Lestari',
                 'author_position' => 'Manager Operasional, Sinar Abadi',
-                'author_photo' => 'https://source.unsplash.com/100x100/?woman,face,business',
+                'author_photo' => '',
             ],
             [
                 'content' => 'Aegis Security memberikan kami ketenangan pikiran. Sistem keamanan kami jauh lebih kuat dari sebelumnya.',
                 'author_name' => 'David Wijaya',
                 'author_position' => 'IT Director, Cipta Karya',
-                'author_photo' => 'https://source.unsplash.com/100x100/?person,tech,professional',
+                'author_photo' => '',
             ],
         ];
 

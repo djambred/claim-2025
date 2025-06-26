@@ -12,11 +12,11 @@
         <a href="#contact" class="link link-hover">Kontak</a>
         <a class="link link-hover">Karir</a>
     </nav>
-    <nav>
+    {{-- <nav>
         <h6 class="footer-title">Legal</h6>
         <a class="link link-hover">Syarat & Ketentuan</a>
         <a class="link link-hover">Kebijakan Privasi</a>
-    </nav>
+    </nav> --}}
     <nav>
         <h6 class="footer-title">Media Sosial</h6>
         <div class="grid grid-flow-col gap-4">
@@ -40,6 +40,7 @@
                 </svg></a>
         </div>
     </nav>
+    <img class="mask mask-circle" src="https://img.daisyui.com/images/stock/photo-1567653418876-5bb0e566e1c2.webp" />
 </footer>
 <footer class="footer footer-center p-4 bg-base-300 text-base-content">
     <aside>

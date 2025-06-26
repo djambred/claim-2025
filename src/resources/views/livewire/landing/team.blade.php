@@ -9,7 +9,7 @@
                 <div class="card items-center text-center" data-aos="fade-up" data-aos-delay="{{ $index * 100 }}">
                     <div class="avatar">
                         <div class="w-32 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                            <img src="{{ $member->photo ? Storage::url($member->photo) : 'https://via.placeholder.com/200' }}"
+                            <img src="{{ $member->photo ? Storage::url($member->photo) : asset('images/photo.jpg') }}"
                                 alt="{{ $member->name }}" />
                         </div>
                     </div>
