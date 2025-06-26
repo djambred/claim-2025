@@ -43,6 +43,6 @@
 </footer>
 <footer class="footer footer-center p-4 bg-base-300 text-base-content">
     <aside>
-        <p>Hak Cipta © 2025 - Seluruh hak cipta dilindungi oleh ClaimTech</p>
+        <p>{{ $footerJargon }}</p>
     </aside>
 </footer>
