@@ -1,5 +1,5 @@
 @if ($hero)
-    <section class="hero min-h-screen bg-base-200 bg-cover bg-center px-6 relative" {{-- style="background-image: url('{{ asset($hero->background_image) }}');"> --}} <div
+    <section id="hero" class="hero min-h-screen bg-base-200 bg-cover bg-center px-6 relative" <div
         class="hero-overlay bg-black bg-opacity-50 absolute inset-0 z-0">
         </div>
         <div class="hero-content text-center text-neutral-content relative z-10">
